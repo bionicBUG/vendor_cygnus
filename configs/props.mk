@@ -30,3 +30,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Disable ADB secure
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
+
+# Allow tethering without provisioning app
+ADDITIONAL_BUILD_PROPERTIES += net.tethering.noprovisioning=true
