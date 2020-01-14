@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
     vendor/cygnus/prebuilt/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/cygnus/prebuilt/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept
 
+# APN Conf
+PRODUCT_COPY_FILES += \
+    vendor/cygnus/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery \
